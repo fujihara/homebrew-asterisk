@@ -96,7 +96,7 @@ class Asterisk < Formula
                           "--enable-dev-mode=#{dev_mode ? 'yes' : 'no'}",
                           "--with-ssl=#{openssl.opt_prefix}",
                           "--with-pjproject=#{pjsip.opt_prefix}",
-                          "--with-postgres=/usr/local/Cellar/postgresql/9.5.3"
+                          "--with-postgres=/usr/local/Cellar/postgresql/9.5.3",
                           "--without-gmime",
                           "--without-gtk2",
                           "--without-iodbc",
